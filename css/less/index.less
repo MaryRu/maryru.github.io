@@ -72,14 +72,25 @@ h2::before{
     }
   }
   .ability{
-    background-color: #bdb4f4;
+    background-color: #f19ec2;
     color: #eee;
     text-align: center;
     padding: 15px;
     padding-bottom: 1.45rem;
+    .abi-major{
+      span{
+        display: inline-block;
+        border: 1px solid #eee;
+        padding: 5px;
+        border-radius: 15px;
+        background-color: #eee;
+        color: #f19ec2;
+        margin-bottom: 20px;
+      }
+    }
   }
   .project{
-    background-color: #f19ec2;
+    background-color: #bdb4f4;
     color: #eee;
     text-align: center;
     padding-top: 15px;
@@ -101,13 +112,13 @@ h2::before{
       }
     }
     .pro-one{
-      background-color: #f19ec2;      
+      background-color: #bdb4f4;      
     }
     .pro-two{
       background-color: #02d8c0;
     }
     .pro-three{
-      background-color: #ffcd00;
+      background-color: #fed5b3;
       color: #eee;
       img{
         width: 25%;
@@ -115,5 +126,21 @@ h2::before{
         margin-left: 5px;
       }
     }
+  }
+  .foot{
+    background-color: #0ea6e5;
+    h2{
+      margin: 0;
+      padding: 0.83em 0;
+      text-align: center;
+      color: #eee;
+      position: relative;
+    }
+    h2::after,h2::before{
+      content: '';
+      position: absolute;
+      height: 0;
+    }
+
   }
 }
