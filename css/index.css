@@ -128,22 +128,29 @@ h2::before {
   padding: 15px;
   padding-bottom: 1.45rem;
 }
-.main .content .con-header .con-major {
+.main .content .con-major {
   padding: 0 20px;
 }
-.main .content .con-header .con-major p {
+.main .content .con-major p {
   text-align: left;
   font-size: 0.8rem;
   line-height: 1.5rem;
 }
-.main .content .con-header .con-major .con-list {
+.main .content .con-major .con-list {
   width: 48%;
 }
-.main .content .con-header .con-major .con-list.fl {
+.main .content .con-major .con-list.fl {
   border-right: 3px solid #eee;
 }
-.main .content .con-header .con-major .con-list.fl p {
+.main .content .con-major .con-list.fl p {
   line-height: 2rem;
+}
+.main .ability {
+  background-color: #bdb4f4;
+  color: #eee;
+  text-align: center;
+  padding: 15px;
+  padding-bottom: 1.45rem;
 }
 .main .project {
   background-color: #f19ec2;
@@ -173,4 +180,13 @@ h2::before {
 }
 .main .project .pro-two {
   background-color: #02d8c0;
+}
+.main .project .pro-three {
+  background-color: #ffcd00;
+  color: #eee;
+}
+.main .project .pro-three img {
+  width: 25%;
+  padding-top: 25px;
+  margin-left: 5px;
 }
