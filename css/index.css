@@ -125,25 +125,35 @@ h2::before {
   background-color: #0ea6e5;
   color: #eee;
   text-align: center;
-  padding: 15px;
+  padding: 0.7rem;
   padding-bottom: 1.45rem;
 }
 .main .content .con-major {
-  padding: 0 20px;
+  padding: 0 0.8rem;
+  position: relative;
 }
 .main .content .con-major p {
   text-align: left;
   font-size: 0.8rem;
   line-height: 1.5rem;
 }
+.main .content .con-major i {
+  position: absolute;
+  display: inline-block;
+  top: 50%;
+  margin-top: -2.5rem;
+  left: 48%;
+  margin-left: -1.5px;
+  width: 3px;
+  height: 5rem;
+  background-color: #eee;
+}
 .main .content .con-major .con-list {
   width: 48%;
 }
-.main .content .con-major .con-list.fl {
-  border-right: 3px solid #eee;
-}
 .main .content .con-major .con-list.fl p {
   line-height: 2rem;
+  overflow: hidden;
 }
 .main .ability {
   background-color: #f19ec2;
@@ -173,6 +183,10 @@ h2::before {
   width: 100%;
   margin: 0 auto;
   padding-bottom: 35px;
+  color: #7b7b7b;
+}
+.main .project .pro a {
+  color: #7b7b7b;
 }
 .main .project .pro img {
   width: 80%;
@@ -192,12 +206,9 @@ h2::before {
 }
 .main .project .pro-three {
   background-color: #fed5b3;
-  color: #eee;
 }
 .main .project .pro-three img {
-  width: 25%;
-  padding-top: 25px;
-  margin-left: 5px;
+  width: 100%;
 }
 .main .foot {
   background-color: #0ea6e5;
@@ -214,4 +225,42 @@ h2::before {
   content: '';
   position: absolute;
   height: 0;
+}
+.main .foot .foot-icon {
+  width: 50%;
+  margin: 0 auto;
+  padding: 20px;
+}
+.main .foot .foot-icon p {
+  color: #eee;
+  line-height: 2rem;
+  margin-left: 25px;
+  cursor: pointer;
+  position: relative;
+}
+.main .foot .foot-icon p a {
+  color: #eee;
+}
+.main .foot .foot-icon p .icon {
+  position: absolute;
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  left: -30px;
+  top: 50%;
+  margin-top: -13px;
+  background: url(../image/icon.png) no-repeat;
+  background-size: 400px 400px;
+}
+.main .foot .foot-icon p .icon.icon-name {
+  background-position: -25px 0;
+}
+.main .foot .foot-icon p .icon.icon-phone {
+  background-position: -25px -25px;
+}
+.main .foot .foot-icon p .icon.icon-git {
+  background-position: -50px -25px;
+}
+.main .foot .foot-icon p .icon.icon-mail {
+  background-position: -50px 0;
 }

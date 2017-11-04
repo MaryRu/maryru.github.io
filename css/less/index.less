@@ -51,21 +51,33 @@ h2::before{
     background-color: #0ea6e5;
     color: #eee;
     text-align: center;
-    padding: 15px;
+    padding: 0.7rem;
     padding-bottom: 1.45rem;
     .con-major{
-      padding: 0 20px;
+      padding: 0 0.8rem;
+      position: relative;
       p{
         text-align: left;
         font-size: 0.8rem;
         line-height: 1.5rem;
       }
+      i{
+        position: absolute;
+        display: inline-block;
+        top: 50%;
+        margin-top: -2.5rem;
+        left: 48%;
+        margin-left: -1.5px;
+        width: 3px;
+        height: 5rem;
+        background-color: #eee;
+      }
       .con-list{
         width: 48%;
         &.fl{
-          border-right:3px solid #eee;
           p{
             line-height: 2rem;
+            overflow: hidden;
           }
         }
       }
@@ -100,6 +112,10 @@ h2::before{
       width: 100%;
       margin: 0 auto;
       padding-bottom: 35px;
+      color: #7b7b7b;
+      a{
+        color: #7b7b7b;
+      }
       img{
         width: 80%;
       }
@@ -119,11 +135,9 @@ h2::before{
     }
     .pro-three{
       background-color: #fed5b3;
-      color: #eee;
+      // color: #eee;
       img{
-        width: 25%;
-        padding-top: 25px;
-        margin-left: 5px;
+        width: 100%;
       }
     }
   }
@@ -141,6 +155,44 @@ h2::before{
       position: absolute;
       height: 0;
     }
-
+    .foot-icon{
+      width: 50%;
+      margin: 0 auto;
+      padding: 20px;
+      p{
+        color:#eee;
+        line-height: 2rem;
+        margin-left: 25px;
+        cursor:pointer;
+        position: relative;
+        a{
+          color:#eee;
+        }
+        .icon{
+          position: absolute;
+          display: inline-block;
+          width: 25px;
+          height: 25px;
+          left:-30px;
+          top:50%;
+          margin-top: -13px;
+          background: url(../image/icon.png) no-repeat;
+          background-size: 400px 400px;
+          &.icon-name{
+            background-position: -25px 0;
+          }
+          &.icon-phone{
+            background-position: -25px -25px;
+          }
+          &.icon-git{
+            background-position: -50px -25px;
+          }
+          &.icon-mail{
+            background-position: -50px 0;
+          }
+        }
+      }
+    }
+   
   }
 }
