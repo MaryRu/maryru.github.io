@@ -77,12 +77,20 @@ h2::before{
         &.fl{
           p{
             line-height: 2rem;
-            overflow: hidden;
           }
+        }
+      }
+      @media only screen and (max-width: 414px) {
+        .con-list{
+          width: 100%;
+        }
+        i{
+          display: none;
         }
       }
     }
   }
+  
   .ability{
     background-color: #f19ec2;
     color: #eee;
@@ -193,6 +201,13 @@ h2::before{
         }
       }
     }
-   
+    @media only screen and (max-width: 414px) {
+      .foot-icon{
+        width: 80%;
+        .fl,.fr{
+          width: 100%;
+        }
+      }
+    }
   }
 }
