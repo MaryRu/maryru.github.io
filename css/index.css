@@ -179,7 +179,7 @@ h2::before {
   margin-bottom: 20px;
 }
 .main .project {
-  background-color: #bdb4f4;
+  background-color: #bb73f9;
   color: #eee;
   text-align: center;
   padding-top: 15px;
@@ -190,10 +190,10 @@ h2::before {
   width: 100%;
   margin: 0 auto;
   padding-bottom: 35px;
-  color: #7b7b7b;
+  color: #fff;
 }
 .main .project .pro a {
-  color: #7b7b7b;
+  color: #fff;
 }
 .main .project .pro img {
   width: 80%;
@@ -206,13 +206,13 @@ h2::before {
   text-align: left;
 }
 .main .project .pro-one {
-  background-color: #fce5e0;
+  background-color: #f3b61d;
 }
 .main .project .pro-two {
   background-color: #02d8c0;
 }
 .main .project .pro-three {
-  background-color: #fed5b3;
+  background-color: #9617f4;
 }
 .main .project .pro-three img {
   width: 100%;
